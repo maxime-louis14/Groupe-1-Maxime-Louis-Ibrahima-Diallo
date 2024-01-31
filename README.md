@@ -1,6 +1,6 @@
 Bonjour,
 
-GitHub https : (https://github.com/maxime-louis14/Groupe-1-Maxime-Louis-Ibrahima-Diallo.git)
+GitHub : (https://github.com/maxime-louis14/Groupe-1-Maxime-Louis-Ibrahima-Diallo)
 
 Pour voir les filtres, il faut télécharger Spark (meta) en suivant ce lien : https://spark.meta.com/learn/downloads/
 
