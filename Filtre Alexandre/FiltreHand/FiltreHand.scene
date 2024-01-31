@@ -1,0 +1,3222 @@
+{
+  "modelName": "scene",
+  "identifier": "scene:17-2c908bb0-23c4-41bd-baa9-de69b780c6e5",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "device",
+      "name": "Device",
+      "identifier": "device:77-2c908bb0-23c4-41bd-baa9-de69b780c6e5",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "instructionAnim",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "camera",
+          "name": "Camera",
+          "identifier": "camera:79-2c908bb0-23c4-41bd-baa9-de69b780c6e5",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "instructionAnim",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "projectionType": "perspective",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "updateSource": "gyro",
+          "children": [
+            {
+              "modelName": "focalDistance",
+              "name": "Focal Distance",
+              "identifier": "focalDistance:81-2c908bb0-23c4-41bd-baa9-de69b780c6e5",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "instructionAnim",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": -0.5361266732215881
+              },
+              "children": [
+                {
+                  "modelName": "block_scene_model",
+                  "name": "backgroundColor",
+                  "identifier": "block_scene_model:155429-d7e291ee-916a-46ee-8cfd-2eed8f03bcad",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "customPortValues": {
+                    "block_input_port_model:73234-1590bb76-bf56-4841-955f-ec9ad3115728": {
+                      "t": "color",
+                      "v": 2583691264
+                    }
+                  },
+                  "hidden": false,
+                  "layerIdentifier": "background",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0.2617993877991494,
+                    "rz": 0.3839724354387525,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": -1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "sceneObject",
+                  "name": "sceneObjects",
+                  "identifier": "sceneObject:512-2c908bb0-23c4-41bd-baa9-de69b780c6e5",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "hidden": false,
+                  "layerIdentifier": "base",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shapeColor": "0xff808080",
+                  "shapeType": 0,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "composition_model",
+                      "name": "body",
+                      "identifier": "composition_model:38173-a68a13ee-72c9-4df8-9f1e-7f7bdb197ee6",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "height": 844,
+                      "hidden": false,
+                      "layerIdentifier": "base",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "sizingMode": "full_screen",
+                      "spaceMode": "camera_space",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.0005924170836806297,
+                        "sy": 0.0005924170836806297,
+                        "sz": 0.0005924170836806297,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "width": 390,
+                      "children": [
+                        {
+                          "modelName": "sceneObject",
+                          "name": "rigNull",
+                          "identifier": "sceneObject:154702-1900ee30-1834-4e9b-ad46-ad9cc7ea2c59",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "hidden": false,
+                          "layerIdentifier": "base",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "shapeColor": "0xff808080",
+                          "shapeType": 0,
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1779556.125,
+                            "sy": 1779556.125,
+                            "sz": 1779556.125,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "children": [
+                            {
+                              "modelName": "3_d_object_instance_model",
+                              "name": "bodyRig",
+                              "identifier": "master3_d_object_model:95505-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "depth": 0.001500000013038516,
+                              "height": 0.9100434184074402,
+                              "hidden": false,
+                              "layerIdentifier": "base",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "width": 0.7532436847686768,
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "bodyNull",
+                                  "identifier": "sceneObject:95508-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "base",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 0,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "headHat",
+                                      "identifier": "mesh:95524-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "head",
+                                      "nodeName": "headHat",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92240-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 2.842170943040401E-14,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 192.09344482421875,
+                                        "y": -68.41378784179688,
+                                        "z": 36.550537109375
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95528-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95531-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95532-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95535-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "glasses",
+                                      "identifier": "mesh:95511-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "head",
+                                      "nodeName": "glasses",
+                                      "numberOfFaces": 2,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92229-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 2.2048414524306227E-16,
+                                        "ry": 2.436347463022088E-14,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": -7.8760986328125
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95514-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95517-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95521-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "torso",
+                                      "identifier": "mesh:95702-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "torso",
+                                      "nodeName": "torso",
+                                      "numberOfFaces": 24,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92383-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95705-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95708-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95709-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95710-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95711-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95712-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95715-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "rightUpperArm",
+                                      "identifier": "mesh:95674-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "rightArm",
+                                      "nodeName": "rightUpperArm",
+                                      "numberOfFaces": 29,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92361-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95677-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95680-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95681-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95682-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95685-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "rightForearm",
+                                      "identifier": "mesh:95634-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "rightArm",
+                                      "nodeName": "rightForearm",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92328-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95637-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95640-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95641-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95642-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95645-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "rightHand",
+                                      "identifier": "mesh:95648-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "rightArm",
+                                      "nodeName": "rightHand",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92339-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95651-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95654-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95655-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95641-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95658-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "leftUpperArm",
+                                      "identifier": "mesh:95592-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "leftArm",
+                                      "nodeName": "leftUpperArm",
+                                      "numberOfFaces": 29,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92295-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95595-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95598-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95599-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95600-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95603-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "leftForearm",
+                                      "identifier": "mesh:95552-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "leftArm",
+                                      "nodeName": "leftForearm",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92262-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95555-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95558-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95559-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95560-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95563-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "leftHand",
+                                      "identifier": "mesh:95566-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "leftArm",
+                                      "nodeName": "leftHand",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92273-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95569-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95572-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95573-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95559-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95576-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "rightUpperLeg",
+                                      "identifier": "mesh:95688-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "rightLeg",
+                                      "nodeName": "rightUpperLeg",
+                                      "numberOfFaces": 24,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92372-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 156,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95691-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95694-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95695-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95696-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95699-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "rightLowerLeg",
+                                      "identifier": "mesh:95661-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "rightLeg",
+                                      "nodeName": "rightLowerLeg",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92350-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95664-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95667-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95628-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95668-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95671-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "rightFoot",
+                                      "identifier": "mesh:95620-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "rightLeg",
+                                      "nodeName": "rightFoot",
+                                      "numberOfFaces": 6,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92317-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95623-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95626-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95627-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95628-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95631-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "leftUpperLeg",
+                                      "identifier": "mesh:95606-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "leftLeg",
+                                      "nodeName": "leftUpperLeg",
+                                      "numberOfFaces": 24,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92306-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95609-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95612-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95613-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95614-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95617-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "leftLowerLeg",
+                                      "identifier": "mesh:95579-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "leftLeg",
+                                      "nodeName": "leftLowerLeg",
+                                      "numberOfFaces": 18,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92284-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95582-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95585-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95546-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95586-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95589-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "leftFoot",
+                                      "identifier": "mesh:95538-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "leftLeg",
+                                      "nodeName": "leftFoot",
+                                      "numberOfFaces": 6,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:92251-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "skeletonIdentifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:95541-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:95544-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "joints": [
+                                                "joint:95545-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                                "joint:95546-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                              ],
+                                              "materialIdentifier": "defaultMaterial:92852-593ea33e-39e6-4eab-969e-8968e9270cf2",
+                                              "surfaceGroupIdentifier": ""
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "modelName": "blend_shapes_model",
+                                          "identifier": "blend_shapes_model:95549-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Armature",
+                                  "identifier": "sceneObject:95718-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "base",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": 0,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 1,
+                                    "sy": 1,
+                                    "sz": 1,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "skeleton",
+                                      "name": "skeleton",
+                                      "identifier": "skeleton:95525-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "inverseBindMatrices": [
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0,
+                                          "m42": -0.676501452922821,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.03831999748945236,
+                                          "m42": 0.00016158699872903526,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.038320768624544144,
+                                          "m42": -0.03543094918131828,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.31891000270843506,
+                                          "m42": -0.6275753378868103,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.20009000599384308,
+                                          "m42": -0.6275753378868103,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.3766355514526367,
+                                          "m42": -0.6275753378868103,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.038320768624544144,
+                                          "m42": -0.20621387660503387,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.20009000599384308,
+                                          "m42": -0.6275753378868103,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.07843189686536789,
+                                          "m42": -0.6275753378868103,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.038320768624544144,
+                                          "m42": -0.20621387660503387,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1.0000001192092896,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.038320768624544144,
+                                          "m42": -0.38221627473831177,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.03832082077860832,
+                                          "m42": 0.00016158699872903526,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.03832079842686653,
+                                          "m42": -0.03543100133538246,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.3189077079296112,
+                                          "m42": -0.6275752186775208,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.20009396970272064,
+                                          "m42": -0.6275752186775208,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.3766399919986725,
+                                          "m42": -0.6275753378868103,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.03832079842686653,
+                                          "m42": -0.20621401071548462,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.20009396970272064,
+                                          "m42": -0.6275752186775208,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.07842999696731567,
+                                          "m42": -0.6275752186775208,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.03832079842686653,
+                                          "m42": -0.20621401071548462,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1.0000001192092896,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.03832079842686653,
+                                          "m42": -0.38221627473831177,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1.0000001192092896,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.038320768624544144,
+                                          "m42": -0.38221627473831177,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": -0.07843188941478729,
+                                          "m42": -0.6275753974914551,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1.0000001192092896,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.03832079842686653,
+                                          "m42": -0.38221627473831177,
+                                          "m43": 0,
+                                          "m44": 1
+                                        },
+                                        {
+                                          "m11": 1,
+                                          "m12": 0,
+                                          "m13": 0,
+                                          "m14": 0,
+                                          "m21": 0,
+                                          "m22": 1,
+                                          "m23": 0,
+                                          "m24": 0,
+                                          "m31": 0,
+                                          "m32": 0,
+                                          "m33": 1,
+                                          "m34": 0,
+                                          "m41": 0.07842999696731567,
+                                          "m42": -0.6275752186775208,
+                                          "m43": 0,
+                                          "m44": 1
+                                        }
+                                      ],
+                                      "jointIdentifiers": [
+                                        "joint:95532-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95545-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95546-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95559-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95560-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95573-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95586-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95599-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95600-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95613-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95614-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95627-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95628-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95641-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95642-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95655-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95668-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95681-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95682-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95695-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95696-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95709-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95710-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95711-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                        "joint:95712-e3782fec-3e89-4b40-bbf2-48f15611fb7a"
+                                      ],
+                                      "layerIdentifier": "base",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "children": [
+                                        {
+                                          "modelName": "joint",
+                                          "name": "chinJoint",
+                                          "identifier": "joint:95532-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0,
+                                            "y": 0.676501452922821,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightShoulderJoint",
+                                          "identifier": "joint:95682-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 1.7484555314695172E-7,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.07842999696731567,
+                                            "y": 0.6275752186775208,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightElbowShoulderJoint",
+                                          "identifier": "joint:95681-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.20009396970272064,
+                                            "y": 0.6275752186775208,
+                                            "z": -1.3919604765629217E-15
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightElbowWristJoint",
+                                          "identifier": "joint:95642-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 1.7484555314695172E-7,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.20009396970272064,
+                                            "y": 0.6275752186775208,
+                                            "z": -1.3919604765629217E-15
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightWristJoint",
+                                          "identifier": "joint:95641-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.3189077079296112,
+                                            "y": 0.6275752186775208,
+                                            "z": -2.6407939843800217E-15
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightHandTipJoint",
+                                          "identifier": "joint:95655-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.3766399919986725,
+                                            "y": 0.6275753378868103,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftShoulderJoint",
+                                          "identifier": "joint:95600-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.07843142002820969,
+                                            "y": 0.6275753378868103,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftElbowShoulderJoint",
+                                          "identifier": "joint:95599-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 1.7484555314695172E-7,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.20009000599384308,
+                                            "y": 0.6275753378868103,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftElbowWristJoint",
+                                          "identifier": "joint:95560-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.20009000599384308,
+                                            "y": 0.6275753378868103,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftWristJoint",
+                                          "identifier": "joint:95559-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 1.7484555314695172E-7,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.31891000270843506,
+                                            "y": 0.6275753378868103,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftHandTipJoint",
+                                          "identifier": "joint:95573-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.3766355514526367,
+                                            "y": 0.6275753378868103,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightTorsoJoint",
+                                          "identifier": "joint:95712-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.07842999696731567,
+                                            "y": 0.6275752186775208,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightHipTorsoJoint",
+                                          "identifier": "joint:95711-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 0.9999999403953552,
+                                            "sz": 1,
+                                            "x": -0.03832079842686653,
+                                            "y": 0.3822162449359894,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightHipJoint",
+                                          "identifier": "joint:95696-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 0.9999999403953552,
+                                            "sz": 1,
+                                            "x": -0.03832079842686653,
+                                            "y": 0.3822162449359894,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightKneeHipJoint",
+                                          "identifier": "joint:95695-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.03832079842686653,
+                                            "y": 0.20621401071548462,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightKneeAnkleJoint",
+                                          "identifier": "joint:95668-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": -2.220446049250313E-16,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.03832079842686653,
+                                            "y": 0.20621401071548462,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightAnkleJoint",
+                                          "identifier": "joint:95628-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.03832079842686653,
+                                            "y": 0.03543100133538246,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "rightFootTipJoint",
+                                          "identifier": "joint:95627-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": -0.03832058236002922,
+                                            "y": -0.00016162238898687065,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftTorsoJoint",
+                                          "identifier": "joint:95710-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.0784323662519455,
+                                            "y": 0.6275753974914551,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftHipTorsoJoint",
+                                          "identifier": "joint:95709-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 0.9999999403953552,
+                                            "sz": 1,
+                                            "x": 0.03832053020596504,
+                                            "y": 0.3822162449359894,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftHipJoint",
+                                          "identifier": "joint:95614-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 0.9999999403953552,
+                                            "sz": 1,
+                                            "x": 0.03832053020596504,
+                                            "y": 0.3822162449359894,
+                                            "z": 0.00006103515625
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftKneeHipJoint",
+                                          "identifier": "joint:95613-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.03832053020596504,
+                                            "y": 0.20621387660503387,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftKneeAnkleJoint",
+                                          "identifier": "joint:95586-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.03832053020596504,
+                                            "y": 0.20621387660503387,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftAnkleJoint",
+                                          "identifier": "joint:95546-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.03832053020596504,
+                                            "y": 0.035431187599897385,
+                                            "z": 0
+                                          }
+                                        },
+                                        {
+                                          "modelName": "joint",
+                                          "name": "leftFootTipJoint",
+                                          "identifier": "joint:95545-e3782fec-3e89-4b40-bbf2-48f15611fb7a",
+                                          "animationMask": {
+                                            "position": false,
+                                            "rotation": false,
+                                            "scale": false
+                                          },
+                                          "cameraVisibility": "back|front",
+                                          "hidden": false,
+                                          "layerIdentifier": "base",
+                                          "outputVisibility": "preview|capture",
+                                          "physicsEnabled": false,
+                                          "tags": [],
+                                          "transform": {
+                                            "rx": 0,
+                                            "ry": 0,
+                                            "rz": 0,
+                                            "sx": 1,
+                                            "sy": 1,
+                                            "sz": 1,
+                                            "x": 0.03831999748945236,
+                                            "y": -0.00016162238898687065,
+                                            "z": 0
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "sceneObject",
+                          "name": "trackingPoints",
+                          "identifier": "sceneObject:186183-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "hidden": true,
+                          "layerIdentifier": "trackingPoints",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "shapeColor": "0xff808080",
+                          "shapeType": 0,
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1.000000238418579,
+                            "sy": 1.000000238418579,
+                            "sz": 1.000000238418579,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "children": [
+                            {
+                              "modelName": "plane",
+                              "name": "chin",
+                              "identifier": "plane206965-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "topHead",
+                              "identifier": "plane239358-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "nose",
+                              "identifier": "plane228559-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftEye",
+                              "identifier": "plane217762-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightEye",
+                              "identifier": "plane271773-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftEar",
+                              "identifier": "plane260968-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightEar",
+                              "identifier": "plane250165-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "neck",
+                              "identifier": "plane296195-771e78fc-2b47-4b5d-b612-350f845bbae9",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightShoulder",
+                              "identifier": "plane:74155-6d2d7678-d50b-42bc-aff9-08c5c1219dad",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightElbow",
+                              "identifier": "plane:81020-6d2d7678-d50b-42bc-aff9-08c5c1219dad",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightWrist",
+                              "identifier": "plane:71615-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftShoulder",
+                              "identifier": "plane:79545-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftElbow",
+                              "identifier": "plane:79548-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftWrist",
+                              "identifier": "plane:79551-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightHip",
+                              "identifier": "plane376699-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightKnee",
+                              "identifier": "plane394534-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "rightAnkle",
+                              "identifier": "plane412347-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftHip",
+                              "identifier": "plane516307-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftKnee",
+                              "identifier": "plane516310-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "modelName": "plane",
+                              "name": "leftAnkle",
+                              "identifier": "plane516313-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "trackingPoints",
+                              "materialIdentifier": "defaultMaterial:88856-543dd7a8-49cd-4cd5-9e08-035b35ef6e6b",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 100,
+                                "sy": 100,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "microphone_model",
+          "name": "Microphone",
+          "identifier": "microphone_model:83-2c908bb0-23c4-41bd-baa9-de69b780c6e5",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "disabled": false,
+          "hidden": false,
+          "layerIdentifier": "instructionAnim",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "previewAudioSource": "live",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ]
+}
