@@ -1,5 +1,7 @@
 Bonjour,
 
+le depo de ibrahima : un autre git : https://github.com/ibrahima-eemi/Filtre_Taekwondo
+
 vérifier les readme.md dans les dossiers pour le fonctionnement des filtres
 
 GitHub : (https://github.com/maxime-louis14/Groupe-1-Maxime-Louis-Ibrahima-Diallo)
