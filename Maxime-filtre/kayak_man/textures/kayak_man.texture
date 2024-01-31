@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "kayak_man",
+  "identifier": "texture:3698-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "22221a57d1e981acefc03f7137bccc18",
+  "assetLocator": "textures/kayak_man.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 585,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "22221a57d1e981acefc03f7137bccc18",
+      "colorCount": 222038,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 14.73319786695851,
+      "pixelsHigh": 1024,
+      "pixelsWide": 585
+    }
+  ]
+}

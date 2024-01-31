@@ -1,0 +1,39 @@
+{
+  "id": "141728e4259070a7da48819404a1aa3d87ed8c",
+  "revision": "171846e4259070a7da48819404a1aa3d87ed8c",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "visual_programming": {
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:141818-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+        "subpatches": [
+          "producer_patch_model:146613-e4259070-a7da-4881-9404-a1aa3d87ed8c"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "producer_patch_model",
+        "name": "cameraTexture0",
+        "identifier": "producer_patch_model:146613-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+        "object": "cameraTexture:146611-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+        "position": [
+          860.3249999999997,
+          171.39999999999998
+        ]
+      }
+    ]
+  }
+}

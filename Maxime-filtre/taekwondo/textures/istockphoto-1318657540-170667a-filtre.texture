@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "istockphoto-1318657540-170667a-filtre",
+  "identifier": "texture:142611-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4c15c026ff54197654cb3fef5c50d669",
+  "assetLocator": "textures/istockphoto-1318657540-170667a-filtre.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 585,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4c15c026ff54197654cb3fef5c50d669",
+      "colorCount": 170567,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 15.237225967781638,
+      "pixelsHigh": 1024,
+      "pixelsWide": 585
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "554e4259070a7da48819404a1aa3d87ed8c",
+  "revision": "971cc1a4239f15947499cc0603a5be66ad5",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9623-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "fromPatch": "template_patch_model:9615-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:9617-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9625-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "fromPatch": "template_patch_model:9617-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "fromPort": "100",
+        "toPatch": "producer_patch_model:9613-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "toPort": "100"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:9627-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "fromPatch": "producer_patch_model:9613-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:9619-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:3883-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "subpatches": [
+          "consumer_patch_model:151312-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+          "producer_patch_model:9613-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+          "template_patch_model:7261-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+          "template_patch_model:9615-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+          "template_patch_model:9617-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+          "template_patch_model:9619-1877bac5-cfef-4ea9-9378-bd8164a3ec31"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "nullObject0",
+        "identifier": "consumer_patch_model:151312-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+        "object": "sceneObject:9239-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "objectProperty": "position",
+        "position": [
+          1305.3249518226837,
+          58.89999340623626
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                5,
+                3,
+                3
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "faceTracker0",
+        "identifier": "producer_patch_model:9613-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "object": "facetracker:9115-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "position": [
+          788,
+          20
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Object Tap",
+        "identifier": "template_patch_model:7261-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "position": [
+          858.3249999999997,
+          110.14999999999998
+        ],
+        "templateId": "builtin.sceneObjectTapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "identifier": "template_patch_model:9615-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "position": [
+          356,
+          20
+        ],
+        "templateId": "builtin.faceTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "identifier": "template_patch_model:9617-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "position": [
+          548,
+          20
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Eyebrow",
+        "identifier": "template_patch_model:9619-1877bac5-cfef-4ea9-9378-bd8164a3ec31",
+        "position": [
+          980,
+          20
+        ],
+        "templateId": "builtin.eyebrow"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "modelName": "blendedMaterial",
+  "name": "material1",
+  "identifier": "blendedMaterial:142969-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "blendMode": "Normal",
+  "cullMode": "back",
+  "diffuseTextureName": "texture:142611-e4259070-a7da-4881-9404-a1aa3d87ed8c",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": false,
+  "importIssues": {},
+  "isDiffuseTextureIdentifierEnabled": true,
+  "readDepth": true,
+  "transparency": 1,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

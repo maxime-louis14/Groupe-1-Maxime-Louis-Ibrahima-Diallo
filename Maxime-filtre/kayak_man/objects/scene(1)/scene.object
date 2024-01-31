@@ -1,0 +1,115 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Golden crown",
+  "identifier": "master3_d_object_model:12918-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+  "sourceIdentifier": "asset_collection_model:12922-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 5.0583720207214355,
+  "globalScaleFactor": 0.4012009520992748,
+  "height": 2.7810769081115723,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": -1.570796251296997,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 0.9999999403953552,
+    "sz": 0.9999999403953552,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 4.98503303527832,
+  "children": [
+    {
+      "modelName": "sceneObject",
+      "name": "Iron crown triangulated.obj.cleaner.materialmerger.gles",
+      "identifier": "sceneObject:12906-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "shapeColor": "0xff808080",
+      "shapeType": 0,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "mesh",
+          "name": "Object_2",
+          "identifier": "mesh:12908-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "nodeName": "Object_2",
+          "numberOfFaces": 8316,
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "prefabIdentifier": "gltf:12912-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "useEmbeddedBlendshapes": false,
+          "children": [
+            {
+              "modelName": "surfaces",
+              "identifier": "surfaces:12910-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+              "children": [
+                {
+                  "modelName": "surface",
+                  "name": "surface0",
+                  "identifier": "surface:12915-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+                  "isMaterialIdentifierEnabled": true,
+                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:12894-cc1a4239-f159-4749-9cc0-603a5be66ad5",
+                  "surfaceGroupIdentifier": "12916-cc1a4239-f159-4749-9cc0-603a5be66ad5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
